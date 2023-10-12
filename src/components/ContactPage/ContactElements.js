@@ -95,6 +95,9 @@ export const FormInput = styled.input`
     border: none;
     border-radius: 4px;
     outline: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
 `;
 
 export const FormInputMessage = styled.textarea`
@@ -106,6 +109,9 @@ export const FormInputMessage = styled.textarea`
     max-width: 100%;
     resize: none;
     outline: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
 `;
 
 export const FormButton = styled.button`
