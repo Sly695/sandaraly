@@ -94,7 +94,7 @@ export const FormInput = styled.input`
     margin-bottom: 32px;
     border: none;
     border-radius: 4px;
-
+    outline: none;
 `;
 
 export const FormInputMessage = styled.textarea`
@@ -105,6 +105,7 @@ export const FormInputMessage = styled.textarea`
     height: 50px;
     max-width: 100%;
     resize: none;
+    outline: none;
 `;
 
 export const FormButton = styled.button`
