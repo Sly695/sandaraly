@@ -27,7 +27,7 @@ const ContactPage = () => {
                             <FormInput name="email" type="email" required />
                             <FormLabel htmlFor='for'>Message</FormLabel>
                             <FormInput  name="message" type="text" required />
-                            <input type="hidden" name="redirectTo" value="https://www.sandaraly.fr/success"></input>
+                            <input type="hidden" name="redirectTo" value="https://sandaraly.fr/success"></input>
                             <FormButton type="submit" value="Submit" >Envoyer</FormButton>
                         </Form>
                     </FormContent>
