@@ -119,7 +119,7 @@ export const ProjectsCardSpan = styled.span`
 // FOOTER
 
 export const ProjectsCardFooter = styled.div`
-    width: 82%;
+    width: 80%;
     display: flex;
     height: 30px;
     justify-content: space-between;
