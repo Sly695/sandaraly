@@ -5,8 +5,7 @@ export const homeObjOne = { //APROPOS
     lightTextDesc: true,
     topLine: 'A propos de moi...',
     headLine: `Je m'appelle Sandara,`,
-    description: `Je suis à la recherche d'une première expérience 
-    professionnelle afin d'acquérir professionalisme et compétences afin de devenir à terme développeur senior.`,
+    description: `Je suis à la recherche de ma première expérience professionnelle afin d'acquérir des compétences et des connaissances, avec l'objectif de devenir un développeur senior à terme.`,
     buttonLabel: '',
     imgStart: false,
     img: require('../../image/svg1.svg').default,

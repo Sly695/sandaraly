@@ -15,6 +15,7 @@ export const Button = styled.button`
     justify-content: center;
     align-items: center;
     transition: all 0.2s ease-in-out;
+    display: ${({ display }) => ( display === false ? "none" : "block")};
 
     
     &:hover {

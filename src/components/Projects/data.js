@@ -9,6 +9,8 @@ import Chat from '../../image/chat.svg'
 import Website from '../../image/website.svg'
 import TextMii from '../../image/TextMii.svg'
 import Mygallery from '../../image/mygallery.png'
+import debianlogo from '../../image/debian-logo.webp'
+import nginx from '../../image/nginx-logo.png'
 
 export const projetsList = [
     {
@@ -48,6 +50,23 @@ export const projetsList = [
             "Collaboration sur le design de l'application avec le CEO",
             "Déploiement : Google Domains, Heroku",
             "Figma"
+        ]
+    },
+    {
+        logo: debianlogo,
+        cover: nginx,
+        type: "Perso",
+        projet: 'Portfolio',
+        context: "1 mois : création d'un portfolio et le déployer sur un serveur nginx ",
+        tasks: "Implémenter le côté front-end du portfolio, déployer le projet sur un serveur web nginx et implémenter la sécurité autour de l'application mais aussi de l'application",
+        team: "développeurs",
+        website: "https://sandaraly.fr",
+        git: "https://github.com/Sly695/sandaraly",
+        details: [
+            "Technologies front : react, styled components",
+            "Infrastructure: nginx, proxy, reverse proxy, ssl, ssh : clé rsa, sécurité",
+            "Hardware: raspberrypi",
+            "Software: Linux, Debian"
         ]
     },
     {
