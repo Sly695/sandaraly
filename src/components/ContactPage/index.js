@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
     Container,
     FormWrap,
@@ -9,10 +9,23 @@ import {
     FormInput,
     FormLabel,
     FormButton,
+    FormInputMessage
 } from './ContactElements';
 
 
 const ContactPage = () => {
+
+    const [message, setMessage] = useState('');
+    const [rowHeight, setRowHeight] = useState(15);
+  
+    const onMessageChange = (e) => {
+      const newMessage = e.target.value;
+      setMessage(newMessage);
+  
+      if (newMessage.length > 0 && newMessage.length % 35 === 0) {
+        setRowHeight((prevHeight) => prevHeight + 15);
+      }
+    };
 
     return (
         <>
@@ -26,7 +39,7 @@ const ContactPage = () => {
                             <FormLabel htmlFor='for'>Email</FormLabel>
                             <FormInput name="email" type="email" required />
                             <FormLabel htmlFor='for'>Message</FormLabel>
-                            <FormInput  name="message" type="text" required />
+                            <FormInputMessage style={{ height: `${rowHeight}px` }} onChange={onMessageChange} value={message} name="message" type="text" required />
                             <input type="hidden" name="redirectTo" value="https://sandaraly.fr/success"></input>
                             <FormButton type="submit" value="Submit" >Envoyer</FormButton>
                         </Form>

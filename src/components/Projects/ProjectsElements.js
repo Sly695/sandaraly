@@ -23,6 +23,7 @@ export const Carousel = styled.div`
     overflow-y: hidden;
     margin: 0;
     display: flex;
+
 `;
 
 

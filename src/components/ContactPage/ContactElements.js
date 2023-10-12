@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Link  } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
     min-height: 692px;
@@ -94,6 +94,17 @@ export const FormInput = styled.input`
     margin-bottom: 32px;
     border: none;
     border-radius: 4px;
+
+`;
+
+export const FormInputMessage = styled.textarea`
+    padding: 16px 16px;
+    margin-bottom: 32px;
+    border: none;
+    border-radius: 4px;
+    height: 50px;
+    max-width: 100%;
+    resize: none;
 `;
 
 export const FormButton = styled.button`
